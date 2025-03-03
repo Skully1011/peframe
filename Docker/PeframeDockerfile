@@ -1,5 +1,5 @@
 # build with `docker build -t peframe -f Docker/PeframeDockerfile .` from Project directory
-# run using `docker run -i -t --name="peframe" --rm peframe bash -v /path/to/malware:/peframe/peframe/Malwaredocker run -i -t --name="peframe" -v /path/to/malware:/peframe/peframe/Malware --rm peframe bash`
+# run using `docker run -i -t --name="peframe" -v /path/to/malware:/peframe/peframe/Malware --rm peframe bash`
 
 # get base ubuntu (bionic; 18.04) image
 FROM ubuntu
